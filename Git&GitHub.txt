@@ -1,0 +1,994 @@
+This is the working pages of the codetrade
+
+# Hello Git
+Harry Programmer and the Sorcerer’s Code: Scene 1
+
+
+
+
+
+# SnapFit Robots, Inc.
+SNAPFIT ROBOTS PRODUCT DISCLAIMER
+
+Your Snapfit Robot Model i075 is provided with guarantee of limited 1-year warranty only. Outside of maintenance and malfunction descriptions covered in the warranty, customer shall make no claims of any kind, either express or implied, including but not limited to warranties of sellability, fitness for specific usage, of title, or of noninfringement of third and fourth party rights, and/or rights to attend robot parties. Use of the product by uninformed user is at the user’s risk.
+
+Warning: For best battery life, do not leave robot battery charging overnight.
+
+Warning: For best battery life, do not leave robot battery charging overnight.
+
+# git status
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   scene-1.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        add_test.rb
+        init_test.rb
+
+$ 
+
+# git init
+git init
+$ git add scene-1.txt
+
+
+# gitadd
+git add
+
+
+
+#git commit
+$ git commit -m "complete first line of the page"
+[master (root-commit) 6728de1] complete first line of the page
+ 1 file changed, 3 insertions(+)
+ create mode 100644 scene-1.txt
+$ 
+
+
+
+
+
+#gitlog
+$ git log
+commit 6728de122510e4117a689881c133e8181ba69b19
+Author: codecademy <ccuser@codecademy.com>
+Date:   Wed Feb 8 09:58:55 2023 +0000
+
+    complete first line of the page
+$ 
+
+
+
+
+#Manhattan Zoo
+$ git init
+Initialized empty Git repository in /home/ccuser/workspace/manhattan-zoo-1/.git/
+$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        meal-regimens.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git add meal-regimens.txt
+$ git commit -m "print the new message"
+[master (root-commit) 82deef3] print the new message
+ 1 file changed, 28 insertions(+)
+ create mode 100644 meal-regimens.txt
+$ git add meal-regimens.txt
+fatal: Unable to read current working directory: No such file or directory
+$ git status
+fatal: Unable to read current working directory: No such file or directory
+$ 
+
+
+
+
+
+
+#SnapFit Robots, Inc.
+$ git init
+Reinitialized existing Git repository in /home/ccuser/workspace/snapfit-robots/.git/
+$ git status
+On branch master
+nothing to commit, working directory clean
+$ git add instructions.txt
+$ git add warranty.txt
+$ git status
+On branch master
+nothing to commit, working directory clean
+$ git commit q
+error: pathspec 'q' did not match any file(s) known to git.
+$ git commit -m "new message"
+On branch master
+nothing to commit, working directory clean
+$ git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+$ git 
+
+
+
+
+
+
+
+#git checkout
+Hamlet: Act 1, Scene 5
+
+Enter Ghost and Hamlet
+
+Hamlet:
+Where wilt thou lead me? speak; I'll go no further
+
+Ghost: 
+My hour is almost come,
+When I to sulphurous and tormenting balloons
+Must render up myself. 
+
+Hamlet:
+I will.
+
+Ghost: 
+My hour is almost come,
+When I to sulphurous and tormenting flames
+Must render up myself.
+
+$ git diff
+diff --git a/scene-5.txt b/scene-5.txt
+index fa75b29..16bc627 100644
+--- a/scene-5.txt
++++ b/scene-5.txt
+@@ -5,8 +5,10 @@ Enter Ghost and Hamlet
+ Hamlet:
+ Where wilt thou lead me? speak; I'll go no further
+ 
+-Ghost:
+-Mark me.
++Ghost: 
++My hour is almost come,
+$ git checkout HEAD scene-5.txt
+fatal: Unable to read current working directory: No such file or directory
+$ 
+
+
+
+
+
+
+#more git add
+Hamlet: Act 1, Scene 3
+
+A room in Polonius' house.
+
+Enter LAERTES and OPHELIA
+
+LAERTES
+My necessaries are embark'd: farewell:
+And, sister, as the winds give benefit
+And convoy is assistant, do not sleep,
+But let me hear from you.
+
+OPHELIA
+Do you doubt that?
+
+LAERTES
+For Hamlet and the trifling of his favour,
+Hold it a fashion and a toy in blood,
+A violet in the youth of primy nature,
+Forward, not permanent, sweet, not lasting,
+The perfume and suppliance of a minute; No more.
+
+OPHELIA
+No more but so?
+
+$ git diff
+diff --git a/scene-5.txt b/scene-5.txt
+index fa75b29..16bc627 100644
+--- a/scene-5.txt
++++ b/scene-5.txt
+@@ -5,8 +5,10 @@ Enter Ghost and Hamlet
+ Hamlet:
+ Where wilt thou lead me? speak; I'll go no further
+ 
+-Ghost:
+-Mark me.
++Ghost: 
++My hour is almost come,
+$ git checkout HEAD scene-5.txt
+fatal: Unable to read current working directory: No such file or directory
+$ git --all
+Unknown option: --all
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+$ git add --all
+
+
+
+
+
+#git reset I
+Hamlet: Act 1, Scene 2
+
+A room of state in the castle.
+
+Enter KING CLAUDIUS, QUEEN GERTRUDE, HAMLET, POLONIUS, LAERTES, VOLTIMAND,
+CORNELIUS, Lords, and Attendants
+
+KING CLAUDIUS
+
+The memory be green, and that it us befitted
+To bear our hearts in grief and our whole kingdom
+To be contracted in one brow of woe,
+Yet so far hath discretion fought with nature
+That we with wisest sorrow think on him,
+Together with remembrance of ourselves.
+Therefore our sometime sister, now our queen,
+The imperial jointress to this warlike state,
+Have we, as 'twere with a defeated joy,--
+With an auspicious and a dropping eye,
+With mirth in funeral and with dirge in marriage,
+In equal scale weighing delight and dole,--
+Taken to wife: nor have we herein barr'd
+Your better wisdoms, which have freely gone
+With this affair along. For all, our thanks.
+Now follows, that you know, young Fortinbras,
+Holding a weak supposal of our worth,
+Or thinking by our late dear brother's death
+Our state to be disjoint and out of frame,
+Colleagued with the dream of his advantage,
+He hath not fail'd to pester us with message,
+Importing the surrender of those lands
+Lost by his father, with all bonds of law,
+To our most valiant brother. So much for him.
+Now for ourself and for this time of meeting:
+Thus much the business is: we have here writ
+To Norway, uncle of young Fortinbras,--
+Who, impotent and bed-rid, scarcely hears
+Of this his nephew's purpose,--to suppress
+His further gait herein; in that the levies,
+The lists and full proportions, are all made
+Out of his subject: and we here dispatch
+You, good Cornelius, and you, Voltimand,
+For bearers of this greeting to old Norway;
+Giving to you no further personal power
+To business with the king, more than the scope
+Of these delated articles allow.
+
+$ git add scene-2.txt
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   scene-2.txt
+        modified:   scene-3.txt
+        modified:   scene-7.txt
+
+$ git M scene-2.txt
+git: 'M' is not a git command. See 'git --help'.
+
+Did you mean one of these?
+        am
+        gc
+        mv
+        rm
+$ M scene-2.txt
+bash: M: command not found
+$ git commit -m "hamlet"
+fatal: Unable to read current working directory: No such file or directory
+$ 
+
+
+
+
+
+
+
+#git reset II
+$ git commit_reset 5d69206
+git: 'commit_reset' is not a git command. See 'git --help'.
+
+
+
+
+
+#Generalizations
+Before reset:
+
+HEAD is at the most recent commit
+After resetting:
+
+HEAD goes to a previously made commit of your choice
+The gray commits are no longer part of your project
+You have in essence rewound the project’s history
+
+
+
+
+
+
+#git reset review
+git checkout HEAD filename: Discards changes in the working directory.
+git reset HEAD filename: Unstages file changes in the staging area.
+git reset commit_SHA: Resets to a previous commit in your commit history.
+
+
+
+
+#Poem Fiasco
+fire_and_ic.txt
+Fire and Ice, by Robert Frost
+
+Some say the world will end in fire,
+Some say in ice.
+From what I've tasted of desire
+I hold with those who favor fire.
+But if it had to perish twice,
+I think I know enough of hate
+To say that for destruction ice
+Is also okay
+And would suffice.
+there will be nothing change to the now
+
+oven_bird.txt
+The Annoying Bird, by Robyn Lost
+
+There is a terrible singer nobody wants to hear,
+Loud, a mid-summer waker-upper bird,
+Who makes aweful noise all day and night,
+Like BAAAAAAAAH! And QUACK!
+He says things that make no sense
+BLAH BLAH BLAH BLAH BAAAAAH QUACK
+On sunny days a moment's CHIRP;
+Ruining your poem ruining your poem ruining it, yeah!
+This one will never ever ever ever be published, nope!
+The bird would CHIRP CHIRP BAAAK!
+bird bird bird bird bird bird
+
+
+Is what to make of a diminished thing.
+
+road-not-taken.txt
+I Took All the Roads, by Robert Forks
+
+Two roads went exactly the same way
+And I was happy to travel them both
+And be one traveler, I figured it out quick
+blah blah blah
+blah blah blah blah
+
+blah blah blah blah
+Both had terrible claims
+Because it was smooth and boring
+blah blah blah blah
+This poem is terrible, Rob.
+
+blah blah blah blah
+In leaves no step had trodden blah
+Oh, blah blah blah BLAAAAHHH
+WEEEEEEEE!! This road is awesome.
+I'm definitely coming back here!
+
+Hahahahahahahhaha
+Two roads diverged in a hahahahaha
+HAHAHAHAHAHAHHAHAHAHAH! Gotcha.
+
+And that has made all the difference.
+
+base
+$ git checkout --oven-bird.txt
+error: unknown option `oven-bird.txt'
+usage: git checkout [<options>] <branch>
+   or: git checkout [<options>] [<branch>] -- <file>...
+
+    -q, --quiet           suppress progress reporting
+    -b <branch>           create and checkout a new branch
+    -B <branch>           create/reset and checkout a branch
+    -l                    create reflog for new branch
+    --detach              detach the HEAD at named commit
+    -t, --track           set upstream info for new branch
+    --orphan <new-branch>
+                          new unparented branch
+    -2, --ours            checkout our version for unmerged files
+    -3, --theirs          checkout their version for unmerged files
+    -f, --force           force checkout (throw away local modifications)
+    -m, --merge           perform a 3-way merge with the new branch
+    --overwrite-ignore    update ignored files (default)
+    --conflict <style>    conflict style (merge or diff3)
+    -p, --patch           select hunks interactively
+    --ignore-skip-worktree-bits
+                          do not limit pathspecs to sparse entries only
+    --ignore-other-worktrees
+                          do not check if another worktree is holding the given ref
+    --progress            force progress reporting
+
+$ git add -A
+$ git log -g
+commit 8a8cf5a34991e23726fab0d5cfa630b6fb069dd6
+Reflog: HEAD@{0} (danasselin <johndoe@example.com>)
+Reflog message: commit: Start Fire and Ice
+Author: danasselin <johndoe@example.com>
+Date:   Thu Nov 19 11:05:57 2015 -0500
+
+    Start Fire and Ice
+
+commit 7a737817881418fd12225ea3bd415c5ee9214eb8
+Reflog: HEAD@{1} (danasselin <johndoe@example.com>)
+Reflog message: commit: Add work to Oven B
+...skipping...
+
+                   SUMMARY OF LESS COMMANDS
+
+      Commands marked with * may be preceded by a number, N.
+      Notes in parentheses indicate the behavior if N is given.
+      A key preceded by a caret indicates the Ctrl key; thus ^K is ctrl-K.
+
+  h  H                 Display this help.
+  q  :q  Q  :Q  ZZ     Exit.
+ ---------------------------------------------------------------------------
+
+...skipping...
+                   SUMMARY OF LESS COMMANDS
+
+      Commands marked with * may be preceded by a number, N.
+      Notes in parentheses indicate the behavior if N is given.
+      A key preceded by a caret indicates the Ctrl key; thus ^K is ctrl-K.
+
+  h  H                 Display this help.
+  q  :q  Q  :Q  ZZ     Exit.
+ ---------------------------------------------------------------------------
+
+-- Press RETURN for more, or q when done...skipping...
+commit 8a8cf5a34991e23726fab0d5cfa630b6fb069dd6
+Reflog: HEAD@{0} (danasselin <johndoe@example.com>)
+Reflog message: commit: Start Fire and Ice
+Author: danasselin <johndoe@example.com>
+Date:   Thu Nov 19 11:05:57 2015 -0500
+
+    Start Fire and Ice
+
+commit 7a737817881418fd12225ea3bd415c5ee9214eb8
+Reflog: HEAD@{1} (danasselin <johndoe@example.com>)
+Reflog message: commit: Add work to Oven B
+$ git commit -m "there will no "
+[master 378eb8c] there will no
+ 3 files changed, 43 insertions(+), 39 deletions(-)
+ rewrite oven-bird.txt (99%)
+ rewrite road-not-taken.txt (99%)
+$ git reset 
+Unstaged changes after reset:
+M       fire-and-ice.txt
+$ 
+
+
+
+
+
+
+
+ASCII Portfolio
+house.txt
+
+
+
+
+          /\          _____________
+         /  \        /             \
+        /    \      /               \
+       /______\    /                 \
+       |      |    |                 |
+       |      |____|                 |
+       |                             |
+       |                             |
+       |                             |
+       |                             |
+    ======================================
+
+february 8, 2023
+L. Da Vinci
+
+tree.txt
+
+
+
+
+                ^
+               / \
+              /   \
+             /_   _\
+             /     \
+            /_     _\
+            /       \
+           /_       _\
+           /         \
+          /_         _\
+           /         \
+          /           \
+         /_____________\
+               | |
+             __| |___
+
+february 8, 2023
+L. Da Vinci
+
+portrait.txt
+
+
+            ___________
+           /           \
+          /             \
+         |    === ===    |
+        C|    O     O    |C
+         |               |
+         |               |
+          \        >    /
+           |           |
+           |           |
+           |   -----   |
+            \         /
+             \_______/
+
+
+february 8, 2023
+L. Da Vinci
+
+base
+$ git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+$ git add portrait.txt
+$ git commit -m "new file"
+[master b63b939] new file
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+$ git add -A
+$ git commit -m "Take once check"
+[master b8476b4] Take once check
+ 3 files changed, 19 insertions(+), 2 deletions(-)
+ create mode 100644 house.txt
+$ git add .
+$ $ git add portrait.txt house.txt tree.txt 
+bash: $: command not found
+$ git reset HEAD house.txt
+Unstaged changes after reset:
+M       house.txt
+$ git commit -m "Final to commit"
+[master 7984068] Final to commit
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+$ 
+
+
+
+
+#Git Branching
+$ git branch
+* master
+$ 
+
+
+
+
+#git branch 2
+$ git branch fencing
+$ git branch
+  fencing
+* master
+$ 
+
+
+
+
+
+#git checkout
+$ git branch
+  fencing
+* master
+$ git checkout master
+Already on 'master'
+$ git checkout fencing
+Switched to branch 'fencing'
+$ git branch
+* fencing
+  master
+$ 
+
+
+
+#Commit a new branch
+$ git branch
+* fencing
+  master
+$ git add resume.txt
+$ git commit -m "Enter the first"
+On branch fencing
+Untracked files:
+        .DS_Store
+
+nothing added to commit but untracked files present
+$ 
+
+
+
+
+
+
+
+#Git Merge
+$ git branch
+  fencing
+* master
+$ git checkout master
+Already on 'master'
+$ git merge fencing
+Already up-to-date.
+$ git merge skills
+
+
+
+
+
+
+#merge Conflicts 1
+resume.txt
+PETE PAN
+Address: No 31 Kensington Hill Park, London, England
+Phone: 000-111-2222
+-------------------
+
+WORK EXPERIENCE
+Leader - Lost Boys
+Neverland, 5th Star to Right, Straight on 'Til Morning
+Duties:
+-Manage Lost Boys
+-Consult with Winged Sprites
+
+
+
+-Engage in swordfights with professional pirates
+
+VOLUNTEER EXPERIENCE
+
+
+
+$ git branch
+  fencing
+* master
+$ git add resume.txt
+$ git commit -m "first"
+[master e7c3510] first
+ 1 file changed, 1 insertion(+)
+$ git checkout fencing
+Switched to branch 'fencing'
+$ git add resume.txt
+$ git commit -m "First two"
+On branch fencing
+Untracked files:
+        .DS_Store
+
+nothing added to commit but untracked files present
+$ git add resume.txt
+$ git commit -m "First Two"
+[fencing a62e36f] First Two
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+$ 
+
+
+
+
+
+
+#merge conflict II
+resume.txt
+PETE PAN
+Address: No 31 Kensington Hill Park, London, England
+Phone: 000-111-2222
+-------------------
+
+WORK EXPERIENCE
+Leader - Lost Boys
+Neverland, 5th Star to Right, Straight on 'Til Morning
+Duties:
+-Manage Lost Boys
+-Consult with Winged Sprites
+
+
+
+-Engage in swordfights with professional pirates
+
+VOLUNTEER EXPERIENCE
+CONFLICT (content): Merge conflict in resumé.txt
+Automatic merge failed; fix conflicts and then commit the result.
+
+
+$ git add resume.txt
+$ git commit -m "First Two"
+[fencing a62e36f] First Two
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+$ git branch master
+fatal: A branch named 'master' already exists.
+$ git merge fencing
+Already up-to-date.
+$ git add resume.txt
+$ git commit -m "new message"
+[fencing f9155f5] new message
+ 1 file changed, 2 insertions(+)
+$ 
+
+
+
+
+#Deleting Branch
+$ git branch -d fencing
+error: Cannot delete the branch 'fencing' which you are currently on.
+$ git dbranch master
+git: 'dbranch' is not a git command. See 'git --help'.
+
+Did you mean this?
+        branch
+$ git branch master
+fatal: A branch named 'master' already exists.
+$ git branch -d fencing
+error: Cannot delete the branch 'fencing' which you are currently on.
+
+
+
+
+
+#Birthday Party
+index.html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kay's Birthday Party</title>
+</head>
+<body>
+  <h1 style="font-size: 72px">Kay's Birthday Party</h1>
+  <h2>Friday, November 13, 2015, from 7 - 11 pm</h2>
+  <h3>At Roof Garden Cafe, in the Met </h3>
+
+  <ul>
+    <li>Join Kay in celebrating their 29th birthday with free food and beverages</li>
+    <li>karaoke and a special appearance by Willy Nelson</li>
+    <li>explore the Met museum before or after you stop by!</li>
+    <li>Birthday presents optional</li>
+</ul>
+  <p>For more information: contact Kay at 101-000-0101</p>
+
+</body>
+</html>
+
+
+$ git branch
+* master
+  moma
+  whitney
+$ git branch -d moma
+error: The branch 'moma' is not fully merged.
+If you are sure you want to delete it, run 'git branch -D moma'.
+$ git branch -D moma
+Deleted branch moma (was 978e5a1).
+$ git branch -D whitney
+Deleted branch whitney (was 9b384f9).
+$ git branch unordered-list
+$ git add index.html
+$ git commit -m "insert HTML file"
+[master 6bb4f69] insert HTML file
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+$ git switch master
+git: 'switch' is not a git command. See 'git --help'.
+$ git branch master
+fatal: A branch named 'master' already exists.
+$ git branch big-heading
+$ git branch
+  big-heading
+* master
+  unordered-list
+$ git add index.html
+$ git commit -m "Message"
+[master 55e6310] Message
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git branch big-heading
+fatal: A branch named 'big-heading' already exists.
+$ 
+
+
+
+
+
+#Ruby Time Calculator
+examples.md
+### Grace Hopper - Nanoseconds
+ 
+>  They started talking about circuits that acted in nanoseconds, billionths of a second. ... We need to define the problem instead of the procedures.
+ 
+### Edsger Dijkstra - The Humble Programmer
+ 
+> > As a result of a long sequence of coincidences I entered the programming profession ... careful when we give advice to younger people; sometimes they follow it!
+ 
+### Alan Turing - Intelligent Machinery (1948)
+ 
+> A man provided with paper, pencil, and rubber, and subject ... The new form of the problem can be described in terms of a game which we call the 'imitation game'.
+
+README.md
+## Famous speeches by technology advocates and contributors
+ 
+This repository is a compilation of speeches and quotes from renowned technology advocates and contributors including [Grace Hopper](https://en.wikipedia.org/wiki/Grace_Hopper), [Edsger Djikstra](https://en.wikipedia.org/wiki/Edsger_W._Dijkstra), and [Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing).
+
+
+bash
+$ git branch
+  edits
+* master
+$ git merge edits
+Auto-merging examples.md
+CONFLICT (content): Merge conflict in examples.md
+Auto-merging README.md
+CONFLICT (content): Merge conflict in README.md
+Automatic merge failed; fix conflicts and then commit the result.
+$ git add README.md
+$ git branch edits
+fatal: A branch named 'edits' already exists.
+$ git add examples.md
+$ git commit -m "Resolve merge conflict"
+[master 2f4aa4c] Resolve merge conflict
+$ git branch -D edits
+Deleted branch edits (was 0dc9f6a).
+$ 
+
+
+
+
+
+GIT TEAMWORK
+#git clone
+$ science-quizzes
+bash: science-quizzes: command not found
+$ ls
+my-quizzes  science-quizzes
+$ ^C
+$ 
+
+
+
+
+#git remote -v
+$ git remote -v
+fatal: Not a git repository (or any of the parent directories): .git
+$ cd my-quizzes
+$ git remote -v
+origin  /home/ccuser/workspace/curriculum/science-quizzes (fetch)
+origin  /home/ccuser/workspace/curriculum/science-quizzes (push)
+$ 
+
+
+
+
+
+
+#git fetch
+$ git fetch
+fatal: Not a git repository (or any of the parent directories): .git
+$ cd my-quizzes
+$ git fetch
+$ 
+
+
+
+
+
+
+#git merge
+$ git fetch
+fatal: Not a git repository (or any of the parent directories): .git
+$ cd my-quizzes
+$ git fetch
+$ cd my-quizzes
+bash: cd: my-quizzes: No such file or directory
+$ git merge origin/master
+Already up-to-date.
+$ git fetch
+$ git log
+commit 9577536e778b203a67a69efcb41339e4bfda7e1d
+Author: codecademy <ccuser@codecademy.com>
+Date:   Thu Feb 9 05:12:22 2023 +0000
+
+    add some files
+
+commit 3a294546f4a55f02bf37233ef8988d8b9dd7ce59
+Author: danasselin <johndoe@example.com>
+Date:   Tue Nov 3 12:33:23 2015 -0500
+
+    Add heading and comment to biology quiz
+
+commit 6aa7704a31d05541141fbb529abf946bd2fd416b
+Author: danasselin <johndoe@example.com>
+Date:   Thu Oct 29 17:04:04 2015 -0400
+$ 
+
+
+
+
+#Git workflow
+biology.txt
+Biology Quiz 
+6th Grade
+
+  What is an animal that hunts and eats other animals called?
+  a) herbivore
+  b) prey 
+  c) ecosystem 
+  d) predator
+# Add your multiple-choice questions here
+
+bash
+$ cd my-quizzes
+$ git branch bio-questions
+$ git checkout bio-questions
+Switched to branch 'bio-questions'
+$ git add biology.txt
+$ git commit -m "Detailed commit message"
+[master 3fb10b1] Detailed commit message
+ 1 file changed, 5 insertions(+)
+ 
+ 
+ 
+ 
+ 
+ #JavaScript Homework
+ 
+ 
+ 
+ #Recipe Book
+ $ cd veggies-favorites
+bash: cd: veggies-favorites: No such file or directory
+$ cd veggie-favorites
+$ git add .
+$ git commit -m "Message new add"
+[master 02fe71f] Message new add
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+$ cd ../veggie-clone
+$ git fetch
+remote: Counting objects: 13, done.
+remote: Compressing objects:   7% (1/13)  remote: Compressing objects:  15% (2/13)  remote: Compressing objects:  23% (3/13)  remote: Compressing objects:  30% (4/13)  remote: Compressing objects:  38% (5/13)  remote: Compressing objects:  46% (6/13)  remote: Compressing objects:  53% (7/13)  remote: Compressing objects:  61% (8/13)  remote: Compressing objects:  69% (9/13)  remote: Compressing objects:  76% (10/13) remote: Compressing objects:  84% (11/13) remote: Compressing objects:  92% (12/13) remote: Compressing objects: 100% (13/13) remote: Compressing objects: 100% (13/13), done.
+remote: Total 13 (delta 7), reused 0 (delta 0)
+Unpacking objects: 100% (13/13), done.
+From /home/ccuser/workspace/recipe-book-a/veggie-favorites
+ * [new branch]      master     -> origin/master
+$ git merge origin/master
+Updating 4681ee4..02fe71f
+Fast-forward
+ chili.txt          | 16 ++++++++--------
+ margherita.txt     | 11 +++++++----
+ squash-lasagna.txt |  4 +++-
+ 3 files changed, 18 insertions(+), 13 deletions(-)
+$ git branch new-recipe.txt
+$ git branch
+* master
+  new-recipe.txt
+$ git add .
+$ git commit "New "
+error: pathspec 'New ' did not match any file(s) known to git.
+$ git fetch
+$ cd ../veggie-favorites
+$ 
+
+
+
+
+
+
+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
+#
+ 
